@@ -7,7 +7,7 @@
 # if you need Help for develop this source , You Can Send Message To Me With @SpyGuard_BOT #
 ############################################################################################
 */
-define('API_KEY','250920155:AAFQP2Wgu8XxL6AbkGH6TFyOznqCRFKkXrs');
+define('API_KEY','370254025:AAHpMZpmYwzkBqTTMHwID5zJFyX4yzqC5G8');
 //----######------
 function makereq($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -60,7 +60,7 @@ $username = $update->message->from->username;
 $textmessage = isset($update->message->text)?$update->message->text:'';
 $reply = $update->message->reply_to_message->forward_from->id;
 $stickerid = $update->message->reply_to_message->sticker->file_id;
-$admin = 229008846;
+$admin = 326824638;
 $step = file_get_contents("data/".$from_id."/step.txt");
 
 //-------
@@ -106,7 +106,7 @@ var_dump(makereq('sendMessage',[
 
 🔹برای ساخت ربات از دکمه ی 🔄 ساخت ربات استفاده نمایید.
 
-🤖 @pvcreators",
+",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
             	'keyboard'=>[
@@ -235,7 +235,7 @@ var_dump(makereq('sendMessage',[
 
 🔹برای ساخت ربات از دکمه ی 🔄 ساخت ربات استفاده نمایید.
 
-🤖 @pvcreators",
+",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
             	'keyboard'=>[
@@ -278,11 +278,11 @@ var_dump(makereq('sendMessage',[
 
 - نوشته شده به زبان *PHP*
 
-- برنامه نویس ها : @MikailVigeo
+- برنامه نویس ها : @iborn
 اموزش ساخت ربات: /howbot
 
-Copy Right 2016 ©
-@PvCreators",
+
+",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
             	'keyboard'=>[
@@ -303,7 +303,7 @@ var_dump(makereq('sendMessage',[
         'reply_markup'=>json_encode([
             'inline_keyboard'=>[
                 [
-                    ['text'=>"ورود 👑",'url'=>"https://telegram.me/PvCreators"]
+                    ['text'=>"ورود 👑",'url'=>"https://telegram.me/emptychannel"]
                 ]
             ]
         ])
@@ -312,15 +312,14 @@ var_dump(makereq('sendMessage',[
 elseif ($textmessage == '/creator') {
 var_dump(makereq('sendMessage',[
         'chat_id'=>$update->message->chat->id,
-        'text'=>"🔅کدنویس ها: @MikailVigeo - `@OneProgrammer`
-کانال ما: @PvCreators
-*PluginLua*",
+        'text'=>"🔅کدنویس ها:  - ``ا
+",
 	'parse_mode'=>'MarkDown',
         'reply_markup'=>json_encode([
             'inline_keyboard'=>[
                 [
-                    ['text'=>"سازنده",'url'=>"https://telegram.me/MikailVigeo"],
-                    ['text'=>"\nپلاگین لوآ",'url'=>"https://telegram.me/PluginLua"]
+                    ['text'=>"سازنده",'url'=>"https://telegram.me/emptychannel"],
+                    ['text'=>"\nپلاگین لوآ",'url'=>"https://telegram.me/emptychannel"]
                 ]
             ]
         ])
@@ -355,7 +354,7 @@ elseif ($textmessage == '/howbot') {
 var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
         	'text'=>"اموزش ساخت ربات در پست زیر
-[مطالعه](https://telegram.me/PvCreators/7)
+[مطالعه](https://telegram.me/emptychannel/7)
 ",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
