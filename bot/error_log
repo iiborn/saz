@@ -1,0 +1,3 @@
+[30-Oct-2016 09:43:10 America/Chicago] PHP Warning:  file_get_contents(data//step.txt): failed to open stream: No such file or directory in /home/csbazha/public_html/bot/index.php on line 63
+[30-Oct-2016 09:43:10 America/Chicago] PHP Warning:  file_get_contents(data//type.txt): failed to open stream: No such file or directory in /home/csbazha/public_html/bot/index.php on line 64
+[30-Oct-2016 09:43:10 America/Chicago] PHP Warning:  strpos(): Empty needle in /home/csbazha/public_html/bot/index.php on line 109
