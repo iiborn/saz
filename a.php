@@ -1,4 +1,4 @@
 <?php
-$token = "272680010:AAFdKC9UO-TafKuC2_nN85jI4_CZStL4JFo";
+$token = "370254025:AAHpMZpmYwzkBqTTMHwID5zJFyX4yzqC5G8";
 $userbot = json_decode(file_get_contents('https://api.telegram.org/bot'.$token .'/getme'));
 print_r($userbot->result->username);
